@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato Charity</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+</head>
+
+<body style="background: linear-gradient(180deg, #ADE799 0%, #5CF1E5 100%);">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary my-3 sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo_01.png" alt="Logo Charity" class="img-fluid" style="height: 7vh;" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-expanded="false" aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Página inicial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobrenos.html">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contato.html">Entrar em contato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                Tipos de Doação
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Doações de Alimentos</a></li>
+                <li><a class="dropdown-item" href="#">Doações de Roupas</a></li>
+                <li><a class="dropdown-item" href="#">Doações de Brinquedos</a></li>
+                <li><a class="dropdown-item" href="#">Doações de Dinheiro</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Pesquisar" />
+            <button class="btn btn-outline-success" type="submit" aria-label="Buscar">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16" aria-hidden="true">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row justify-content-center my-5">
+      <div class="col-12 col-md-8">
+        <h1 class="mb-4 text-center">Entre em Contato</h1>
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="seu@exemplo.com" required />
+          </div>
+          <div class="mb-3">
+            <label for="assunto" class="form-label">Assunto</label>
+            <input type="text" class="form-control" id="assunto" placeholder="Assunto da mensagem" />
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="5" placeholder="Escreva sua mensagem"
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-light pt-5 pb-4 mt-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <h5 class="mb-3">Sobre a Charity</h5>
+          <p>Somos uma plataforma que conecta doadores a ONGs confiáveis em todo o Brasil, promovendo impacto
+            social e transparência em cada doação.</p>
+          <a href="sobrenos.html" class="btn btn-primary btn-sm">Saiba Mais</a>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <h5 class="mb-3">Contato</h5>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-map-marker-alt me-2"></i>Av. Solidariedade, 123 - Brasília, DF</li>
+            <li><i class="fa fa-phone me-2"></i>(61) 9 XXXX-XXXX</li>
+            <li><i class="fa fa-envelope me-2"></i>contato@charity.org.br</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <h5 class="mb-3">Redes Sociais</h5>
+          <a href="#" class="text-light me-3 fs-4"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="text-light me-3 fs-4"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-light me-3 fs-4"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light fs-4"><i class="fab fa-youtube"></i></a>
+        </div>
+
+      </div>
+
+      <hr class="bg-light" />
+
+      <div class="text-center">
+        <small>&copy; 2025 Charity. Todos os direitos reservados.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
